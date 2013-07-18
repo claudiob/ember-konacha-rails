@@ -89,28 +89,28 @@ spec/javascripts/app/store_spec.js.coffee
 
 *Clean run (default settings)*
 
-$ rails g ember_konacha:install
-     gemfile  konacha
-     gemfile  poltergeist
-      create  spec/javascripts/spec_helper.js.coffee
-      create  spec/javascripts/support/konacha_config.js.coffee
-      create  spec/javascripts/support/sinon_mvc_mocks.js
-Trying to download sinon.js (http://sinonjs.org/releases/sinon-1.6.js) ...      
-      vendor  assets/javascripts/sinon.js
-      create  spec/javascripts/app/store_spec.js.coffee
-      create  spec/javascripts/app/router_spec.js.coffee
-        gsub  app/assets/javascripts/application.js.coffee
-      append  app/assets/javascripts/application.js.coffee
-================================================================================
+    $ rails g ember_konacha:install
+      gemfile  konacha
+      gemfile  poltergeist
+       create  spec/javascripts/spec_helper.js.coffee
+       create  spec/javascripts/support/konacha_config.js.coffee
+       create  spec/javascripts/support/sinon_mvc_mocks.js
+    Trying to download sinon.js (http://sinonjs.org/releases/sinon-1.6.js) ...      
+       vendor  assets/javascripts/sinon.js
+       create  spec/javascripts/app/store_spec.js.coffee
+       create  spec/javascripts/app/router_spec.js.coffee
+         gsub  app/assets/javascripts/application.js.coffee
+       append  app/assets/javascripts/application.js.coffee
+
 Note: poltergeist requires you have installed PhantomJS headless JS driver.
 
 via Homebrew:
 
-brew install phantomjs
+    brew install phantomjs
 
 MacPorts:
 
-sudo port install phantomjs
+    sudo port install phantomjs
 
 See https://github.com/jonleighton/poltergeist
 
